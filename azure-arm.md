@@ -2,7 +2,11 @@
 
 ## Add an Azure Function Key
 
+The following snippet allows you to add a new function / host key to your Azure Function using an ARM template:
+
 ![Azure ARM Function Key](/img/2020-01-23-11-05-17.png)
+
+Snippet:
 
 ```json
 {
