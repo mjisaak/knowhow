@@ -4,6 +4,9 @@
 
 - Smart endpoints and dumb pipes
 
+API Design:
+https://docs.microsoft.com/de-de/azure/architecture/best-practices/api-design
+
 ## Links
 
 - [Why RESTful communication between microservices can be perfectly fine](https://www.innoq.com/de/blog/why-restful-communication-between-microservices-can-be-perfectly-fine)
