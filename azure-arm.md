@@ -6,6 +6,9 @@ The following snippet allows you to add a new function / host key to your Azure 
 
 ![Azure ARM Function Key](/img/2020-01-23-11-05-17.png)
 
+
+https://github.com/Azure/azure-quickstart-templates/issues/6757
+
 Snippet:
 
 ```json
