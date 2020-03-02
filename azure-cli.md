@@ -26,16 +26,16 @@ az login --tenant <tenantId>
 az managementpartner show
 ```
 
-### Update PAL
-
-```bash
-az managementpartner update --partner-id 1234567
-```
-
 ### Create new PAL
 
 ```bash
 az managementpartner create --partner-id 1234567
+```
+
+### Update PAL
+
+```bash
+az managementpartner update --partner-id 1234567
 ```
 
 See also: [Use the Azure CLI to link to a new partner ID](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/link-partner-id#use-the-azure-cli-to-link-to-a-new-partner-id)
