@@ -25,3 +25,18 @@ Snippet:
     ]
 }
 ```
+
+## Deploy Azure resources to more than one subscription or resource group
+
+"resources": [
+  {
+    "apiVersion": "2017-05-10",
+    "name": "nestedTemplate",
+    "type": "Microsoft.Resources/deployments",
+    "resourceGroup": "[parameters('secondResourceGroup')]",
+    "subscriptionId": "[parameters('secondSubscriptionID')]",
+    ...
+  }
+]
+
+[Source](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/cross-resource-group-deployment?tabs=azure-powershell)
