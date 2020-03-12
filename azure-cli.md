@@ -1,5 +1,13 @@
 # Azure CLI snippets
 
+## Rest request using the CLI
+
+```bash
+az rest --method post --uri \
+"/subscriptions/$SUBSCRIPTION_ID/resourceGroups/$RESOURCE_GROUP/providers/Microsoft.Web/sites/$FUNCTION_APP_NAME/host/default/listKeys?api-version=2018-11-01" \
+--query functionKeys.default --output tsv
+```
+
 ## Link a partner ID to your Azure accounts
 
 ### Install PAL extension
