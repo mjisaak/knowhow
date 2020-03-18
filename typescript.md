@@ -8,3 +8,7 @@ npm install -D typescript
 npm install -D tslint
 tsc --init
 ```
+
+```npm
+npm install --production
+```
