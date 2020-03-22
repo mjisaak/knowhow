@@ -19,6 +19,7 @@ More information here: [Installation on Windows](https://github.com/go-delve/del
 ### Enable Go Language server
 
 Set the `go.useLanguageServer` VSCode Setting to `true`:
+
 ![go-vscode-language-server](/img/2020-03-22-11-33-38.png)  
 
 ### Install Go Tools
@@ -26,3 +27,22 @@ Set the `go.useLanguageServer` VSCode Setting to `true`:
 Open the ```Go: Install/Update Tools``` dialog using the Command Palette (<kbd>Strg</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>) and select all:
 
 ![Go Install/Update Tools](/img/2020-03-22-11-28-40.png)
+
+### Test the installation
+
+Create a file named `hello.go` and add the following content to it:
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	fmt.Println("Hello, world!")
+}
+
+```
+
+You should now be able to start debugging the package using <kbd>F5</kbd>
