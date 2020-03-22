@@ -2,11 +2,11 @@
 
 ## Install / Setup VSCode
 
-## Install GO
+### Install GO
 
 [Download the installer](https://golang.org/dl/) and run it.
 
-## Install Delve
+### Install Delve
 
 Delve can be installed using the `go get` command:
 
@@ -21,7 +21,7 @@ More information here: [Installation on Windows](https://github.com/go-delve/del
 Set the `go.useLanguageServer` VSCode Setting to `true`:
 ![go-vscode-language-server](/img/2020-03-22-11-33-38.png)  
 
-## Install Go Tools
+### Install Go Tools
 
 Open the ```Go: Install/Update Tools``` dialog using the Command Palette (<kbd>Strg</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>) and select all:
 
