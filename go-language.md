@@ -23,10 +23,6 @@ Set the `go.useLanguageServer` VSCode Setting to `true`:
 
 ## Install Go Tools
 
-Open the dialog using the Command Palette (<kbd>Strg</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>):
-
-```vscode
-Go: Install/Update Tools
-```
+Open the ```Go: Install/Update Tools``` dialog using the Command Palette (<kbd>Strg</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>) and select all:
 
 ![Go Install/Update Tools](/img/2020-03-22-11-28-40.png)
