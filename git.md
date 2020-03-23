@@ -13,7 +13,7 @@ Note: GH is the new (offical) GitHub CLI - there is also an unoffical CLI called
 A repository can be supplied as an argument in any of the following formats:
 
 * OWNER/REPO
-* by URL, e.g. https://github.com/OWNER/REPO
+* by URL, e.g. `https://github.com/OWNER/REPO`
 
 ```bash
 gh repo clone mjisaak/go-playground
