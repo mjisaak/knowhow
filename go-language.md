@@ -46,3 +46,19 @@ func main() {
 ```
 
 You should now be able to start debugging the package using <kbd>F5</kbd>
+
+## Snippets (learned from tour.golang.org)
+
+```go
+	board := [][]string{
+		[]string{"_", "_", "_"},
+		[]string{"_", "_", "_"},
+		[]string{"_", "_", "_"},
+	}
+
+	board[0][0] = "X"
+	board[2][2] = "O"
+	board[1][2] = "X"
+	board[1][0] = "O"
+	board[0][2] = "X"
+```
