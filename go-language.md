@@ -49,6 +49,8 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 
 ## Snippets (learned from tour.golang.org)
 
+### Slices of slices
+
 ```go
 	board := [][]string{
 		[]string{"_", "_", "_"},
