@@ -49,7 +49,9 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 
 ## Snippets (learned from tour.golang.org)
 
-### Slices of slices
+### Slices
+
+#### Slices of slices
 
 ```go
 	board := [][]string{
@@ -63,6 +65,22 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 	board[1][2] = "X"
 	board[1][0] = "O"
 	board[0][2] = "X"
+```
+
+#### Append to slices
+
+```go
+
+	var s []int
+	var y []int
+
+	s = append(s, 3)
+	s = append(s, 5)
+
+	y = append(s, 1)
+
+	fmt.Println("s: ", s)
+	fmt.Println("y: ", y)
 ```
 
 ### Structs
