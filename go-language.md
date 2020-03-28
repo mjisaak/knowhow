@@ -64,3 +64,27 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 	board[1][0] = "O"
 	board[0][2] = "X"
 ```
+
+### Structs
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type Player struct {
+	fartingPower int
+	name         string
+}
+
+func main() {
+
+	players := []Player{
+		Player{fartingPower: 3, name: "Martin"},
+	}
+
+	fmt.Println("yo", players)
+}
+```
