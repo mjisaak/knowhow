@@ -49,6 +49,17 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 
 ## Snippets (learned from tour.golang.org)
 
+## Arrays
+
+```go
+	myList = []int{1, 2, 3}
+	myList = append(myList, 4, 5)
+
+	for v := range myList {
+		fmt.Println(myList[v])
+	}
+```
+
 ### Slices
 
 #### Slices of slices
