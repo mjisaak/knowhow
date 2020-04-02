@@ -60,6 +60,34 @@ You should now be able to start debugging the package using <kbd>F5</kbd>
 	}
 ```
 
+## Arrays II
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+type Player struct {
+	Name string
+	Age  int
+}
+
+func main() {
+
+	players := []Player{
+		{Name: "Martin", Age: 3},
+	}
+
+	for _, v := range players {
+		fmt.Println(v.Name)
+	}
+
+}
+
+```
+
 ### Slices
 
 #### Slices of slices
