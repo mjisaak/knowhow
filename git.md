@@ -26,3 +26,9 @@ gh repo clone mjisaak/go-playground
 ```git
 git fetch --tags -f
 ```
+
+### Throw away / Discard local commits
+
+```git
+git reset --hard origin/<branch_name>
+```
