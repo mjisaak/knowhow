@@ -32,3 +32,11 @@ git fetch --tags -f
 ```git
 git reset --hard origin/<branch_name>
 ```
+
+### un-commit last un-pushed git commit without losing changes
+
+In case you have not pushed the commit publicly yet:
+
+```git
+reset HEAD~1 --soft
+```
