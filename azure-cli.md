@@ -8,6 +8,12 @@ az rest --method post --uri \
 --query functionKeys.default --output tsv
 ```
 
+## Az ARM deployment using multiple parameters
+
+```bash
+az group deployment create --resource-group rg-name --template-file path/to/azuredeploy.json --parameters param1=value1 param2=value2
+```
+
 ## Link a partner ID to your Azure accounts
 
 ### Install PAL extension
