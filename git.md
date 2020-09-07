@@ -21,6 +21,13 @@ gh repo clone mjisaak/go-playground
 
 ## GIT Commands
 
+### Git Tag
+
+```git
+git tag -a v0.0.2 -m "This release contains the first release of the chrome MVP Docs & Learn Champion extension."
+git push origin --tags
+```
+
 ### Fix "would clobber existing tag"
 
 ```git
